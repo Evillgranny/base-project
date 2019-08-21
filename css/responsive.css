@@ -269,7 +269,7 @@
         line-height: 59px;
     }
     .main-slider__item_content {
-        padding-top: 280px;
+        padding-top: 40%;
     }
     .fixed-menu {
         position: fixed;
@@ -348,7 +348,11 @@
     }
 
     .main-slider__item_main {
-        display: none;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 39px;
+        color: #FFFFFF;
     }
     .slick-dots {
         width: 170px;
@@ -399,7 +403,7 @@
         padding: 0 0 8px 13px;
     }
     .main-slider__item_btn {
-        display: none;
+
     }
     .main-slider__item {
         height: 495px;
@@ -796,9 +800,6 @@
     .call-back-form__container_button {
         width: 220px !important;
         height: 36px !important;
-    }
-    .main-slider__item_content {
-        display: none;
     }
     .main-slider {
         height: 495px;

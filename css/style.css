@@ -441,9 +441,6 @@ body {
 .clients__slider .slick-next:hover::before {
     content: url(../img/green-arr-hover.png);
 }
-.clients__slider__item:hover .clients__slider__item__img {
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
-}
 .about {
     padding-top: 60px;
     background: #004B4D;
@@ -753,6 +750,9 @@ body {
     text-align: center;
     color: #0EAF4A;
     text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    align-self: flex-end;
+    position: relative;
+    top: -20px;
 }
 .fixed-menu {
     position: fixed;
@@ -760,6 +760,7 @@ body {
     top: 0;
     background: rgba(0, 75, 77, 0.7);
     width: 100%;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.25);
 }
 .header-top__menu {
     align-self: center;
@@ -849,4 +850,7 @@ body {
 }
 .footer_top-conatiner__mobile {
     display: none;
+}
+.about__numbers-container_card_top-number_container {
+    display: flex;
 }
