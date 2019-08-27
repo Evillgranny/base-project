@@ -4,7 +4,8 @@ window.onload = function () {
         slide: '.main-slider__item',
         arrows: true,
         dots: true,
-        speed: 500
+        speed: 500,
+
     });
 
     $('.clients__slider').slick({
@@ -14,7 +15,7 @@ window.onload = function () {
         slidesToShow: 3,
         responsive: [
             {
-                breakpoint: 1460,
+                breakpoint: 1320,
                 settings: {
                     slidesToShow: 2
                 }
@@ -28,7 +29,7 @@ window.onload = function () {
         slidesToShow: 3,
         responsive: [
             {
-                breakpoint: 1460,
+                breakpoint: 1320,
                 settings: {
                     slidesToShow: 2
                 }

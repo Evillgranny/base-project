@@ -24,7 +24,7 @@ body {
     box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.25);
 }
 .wrapper {
-    width: 1440px;
+    width: 1320px;
     margin: 0 auto;
     height: 100%;
 }
@@ -148,10 +148,10 @@ body {
 }
 .main-slider__item_img {
     width: 1920px;
-    height: 1008px;
+    height: 1080px;
     position: absolute;
     left: calc(50% - 960px);
-    top: calc(50% - 504px);
+    top: calc(50% - 540px);
 }
 .main-slider__item_btn {
     width: 220px;
@@ -169,42 +169,36 @@ body {
     position: relative;
 }
 .main-slider .slick-next {
-    width: 0;
-    height: 0;
+    width: 63px;
+    height: 16px;
     position: absolute;
     z-index: 25;
     right: 240px;
     bottom: 70px;
     transform: rotate(180deg);
     border: none;
-    background: none;
+    background: url(../img/dh-arr.png) center center / 100% 100%;
     color: transparent;
     cursor: pointer;
 }
-.main-slider .slick-next::before {
-    content: url(../img/dh-arr.png);
-}
-.main-slider .slick-next:hover::before{
-    content: url(../img/main-slider-arr.png);
+.main-slider .slick-next:hover {
+    background: url(../img/main-slider-arr.png) center center / 100% 100%;
 }
 .main-slider .slick-prev {
-    width: 0;
-    height: 0;
+    width: 63px;
+    height: 16px;
     position: absolute;
     z-index: 25;
-    right: 450px;
-    bottom: 86px;
+    right: 350px;
+    bottom: 70px;
     content: url(../img/dh-arr.png);
     border: none;
-    background: none;
+    background: url(../img/dh-arr.png) center center / 100% 100%;
     color: transparent;
     cursor: pointer;
 }
-.main-slider .slick-prev::before {
-    content: url(../img/dh-arr.png);
-}
-.main-slider .slick-prev:hover::before{
-    content: url(../img/main-slider-arr.png);
+.main-slider .slick-prev:hover {
+    background: url(../img/main-slider-arr.png) center center / 100% 100%;
 }
 .main-slider .slick-dots {
     z-index: 21;
@@ -234,7 +228,6 @@ body {
     padding-left: 12px;
     padding-bottom: 0;
     cursor: pointer;
-    line-height: 0;
 }
 .main-slider .slick-dots .slick-active button {
     font-size: 30px;
@@ -254,10 +247,10 @@ body {
 .relize-project__photo-container__row {
     display: grid;
     justify-content: space-between;
-    grid-template-columns: 342px 342px 708px;
+    grid-template-columns: 312px 312px 648px;
 }
 .relize-project__photo-container__row__card {
-    height: 342px;
+    height: 312px;
     position: relative;
     transition: .5s;
     box-shadow: 0px 16px 24px rgba(94, 99, 102, 0.2);
@@ -273,6 +266,10 @@ body {
     line-height: 24px;
     border-radius: 4px;
     color: #fff;
+}
+.relize-project__photo-container__row__card_img {
+    width: 100%;
+    height: 100%;
 }
 .relize-project__photo-container__row__card_mask {
     background: rgba(1, 46, 47, .7);
@@ -293,7 +290,7 @@ body {
     text-align: center;
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 20px;
     color: #FFFFFF;
     margin-bottom: 20px;
@@ -311,7 +308,7 @@ body {
     margin-top: 24px;
     display: grid;
     justify-content: space-between;
-    grid-template-columns:708px 342px 342px ;
+    grid-template-columns: 648px 312px 312px ;
 }
 .relize-project__photo-container__row__card_mask-padding {
     padding-left: 75px;
@@ -329,13 +326,13 @@ body {
 .why-we__cards-container {
     display: grid;
     justify-content: space-between;
-    grid-template-columns: 708px 708px;
+    grid-template-columns: 648px 648px;
     grid-row-gap: 24px;
 }
 .why-we__cards-container_card {
     display: flex;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-left: 10px;
+    padding-right: 10px;
     justify-content: space-between;
     align-items: center;
     height: 276px;
@@ -382,7 +379,7 @@ body {
 }
 .clients__slider {
     margin-top: 60px;
-    width: 1240px;
+    width: 1080px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -407,39 +404,33 @@ body {
 .clients__slider .slick-prev {
     border: none;
     color: transparent;
-    background: transparent;
-    width: 0;
-    height: 0;
+    background: url(../img/green-arr.png) center center / 100% 100%;
+    width: 63px;
+    height: 16px;
     transform: rotate(180deg);
     position: absolute;
     top: 103px;
-    left: -36px;
+    left: -100px;
     cursor: pointer;
     z-index: 25;
 }
-.clients__slider .slick-prev::before {
-    content: url(../img/green-arr.png);
-}
-.clients__slider .slick-prev:hover::before {
-    content: url(../img/green-arr-hover.png);
+.clients__slider .slick-prev:hover {
+    background: url(../img/green-arr-hover.png) center center / 100% 100%;
 }
 .clients__slider .slick-next {
     border: none;
     color: transparent;
-    background: transparent;
-    width: 0;
-    height: 0;
+    background: url(../img/green-arr.png) center center / 100% 100%;
+    width: 63px;
+    height: 16px;
     position: absolute;
-    top: 82px;
-    right: -36px;
+    top: 103px;
+    right: -100px;
     cursor: pointer;
     z-index: 25;
 }
-.clients__slider .slick-next::before {
-    content: url(../img/green-arr.png);
-}
-.clients__slider .slick-next:hover::before {
-    content: url(../img/green-arr-hover.png);
+.clients__slider .slick-next:hover {
+    background: url(../img/green-arr-hover.png) center center / 100% 100%;
 }
 .about {
     padding-top: 60px;
@@ -479,6 +470,7 @@ body {
     text-indent: 20px;
     color: #FFFFFF;
     margin-bottom: 60px;
+    padding-left: 25px;
 }
 .about__bottom_right .header-top__right_button {
     display: block;
@@ -503,52 +495,46 @@ body {
     color: #5E6366;
 }
 .serteficates-slider {
-    width: 1240px;
+    width: 1080px;
     margin: 0 auto;
 }
 .serteficates-slider .slick-prev {
     border: none;
     color: transparent;
-    background: transparent;
-    width: 0;
-    height: 0;
+    background: url(../img/green-arr.png) no-repeat center center / 100% 100%;
+    width: 63px;
+    height: 16px;
     transform: rotate(180deg);
     position: absolute;
     top: 232px;
-    left: -36px;
+    left: -100px;
     cursor: pointer;
     z-index: 25;
 }
-.serteficates-slider .slick-prev::before {
-    content: url(../img/green-arr.png);
-}
-.serteficates-slider .slick-prev:hover::before {
-    content: url(../img/green-arr-hover.png);
+.serteficates-slider .slick-prev:hover {
+    background: url(../img/green-arr-hover.png) no-repeat center center / 100% 100%;
 }
 .serteficates-slider .slick-next {
     border: none;
     color: transparent;
-    background: transparent;
-    width: 0;
-    height: 0;
+    background: url(../img/green-arr.png) no-repeat center center / 100% 100%;
+    width: 63px;
+    height: 16px;
     position: absolute;
-    top: 220px;
-    right: -36px;
+    top: 232px;
+    right: -100px;
     cursor: pointer;
     z-index: 25;
 }
-.serteficates-slider .slick-next::before {
-    content: url(../img/green-arr.png);
-}
-.serteficates-slider .slick-next:hover::before {
-    content: url(../img/green-arr-hover.png);
+.serteficates-slider .slick-next:hover {
+    background: url(../img/green-arr-hover.png) no-repeat center center / 100% 100%;
 }
 .comments {
     padding-top: 120px;
     padding-bottom: 120px;
 }
 .comments__slider {
-    width: 1240px;
+    width: 1080px;
     margin: 0 auto;
 }
 .comments__slider__item {
@@ -609,44 +595,38 @@ body {
     color: #0EAF4A;
 }
 .comments__slider__item_right {
-    width: 819px;
+    width: 619px;
 }
 .comments__slider .slick-prev {
     border: none;
     color: transparent;
-    background: transparent;
-    width: 0;
-    height: 0;
+    background: url(../img/green-arr.png) no-repeat center center / 100% 100%;
+    width: 63px;
+    height: 16px;
     transform: rotate(180deg);
     position: absolute;
-    top: 197px;
-    left: -36px;
+    top: 185px;
+    left: -100px;
     cursor: pointer;
     z-index: 25;
 }
-.comments__slider .slick-prev::before {
-    content: url(../img/green-arr.png);
-}
-.comments__slider .slick-prev:hover::before {
-    content: url(../img/green-arr-hover.png);
+.comments__slider .slick-prev:hover {
+    background: url(../img/green-arr-hover.png) no-repeat center center / 100% 100%;
 }
 .comments__slider .slick-next {
     border: none;
     color: transparent;
-    background: transparent;
-    width: 0;
-    height: 0;
+    background: url(../img/green-arr.png) no-repeat center center / 100% 100%;
+    width: 63px;
+    height: 16px;
     position: absolute;
     top: 185px;
-    right: -36px;
+    right: -100px;
     cursor: pointer;
     z-index: 25;
 }
-.comments__slider .slick-next::before {
-    content: url(../img/green-arr.png);
-}
-.comments__slider .slick-next:hover::before {
-    content: url(../img/green-arr-hover.png);
+.comments__slider .slick-next:hover {
+    background: url(../img/green-arr-hover.png) no-repeat center center / 100% 100%;
 }
 .footer {
     padding-top: 60px;

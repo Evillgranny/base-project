@@ -1,4 +1,4 @@
-@media screen and (max-width: 1460px) {
+@media screen and (max-width: 1320px) {
     .wrapper {
         width: auto;
         padding-left: 45px;
@@ -40,12 +40,6 @@
     }
     .clients__slider {
         width: 460px;
-    }
-    .clients__slider .slick-next {
-        right: -20px;
-    }
-    .clients__slider .slick-prev {
-        left: -20px;
     }
     .about__numbers-container_card_top-number {
         line-height: 70px;
@@ -113,12 +107,10 @@
         margin-right: auto;
     }
     .serteficates-slider .slick-next {
-        top: 140px;
-        right: -20px;
+        top: 152px;
     }
     .serteficates-slider .slick-prev {
         top: 152px;
-        left: -20px;
     }
     .comments__slider {
         width: 460px;
@@ -156,11 +148,9 @@
     }
     .comments__slider .slick-next {
         top: 217px;
-        right: -20px;
     }
     .comments__slider .slick-prev {
-        top: 232px;
-        left: -20px;
+        top: 217px;
     }
     .footer-wrapper {
         width: 700px;
