@@ -1,4 +1,4 @@
-@media screen and (max-width: 1320px) {
+@media screen and (max-width: 1340px) {
     .wrapper {
         width: auto;
         padding-left: 45px;
@@ -193,6 +193,82 @@
     .footer__container__right-column {
         margin-top: 30px;
     }
+    /*О нас*/
+    .about-advantages .wrapper {
+        width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .bread {
+        width: 700px;
+        left: calc(50% - 350px);
+    }
+    .about-page-section .wrapper {
+        width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .about-page-section__container__text-block_float-img {
+        margin-left: 0;
+        float: none;
+        width: 100%;
+        order: 3;
+        margin-bottom: 10px;
+    }
+    .about-page-section__container__text-block {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-page-section__container__text-block_p1 {
+        order: 1;
+    }
+    .about-page-section__container__text-block_p2 {
+        order: 2;
+    }
+    .about-page-section__container__text-block_p3 {
+        order: 4;
+    }
+    .about-page-section__container__text-block_p {
+        margin-bottom: 10px;
+    }
+    .about__our-team .wrapper {
+        width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .about__our-team__container__team-cards_card {
+        height: 442px;
+        position: relative;
+        width: 700px;
+    }
+    .about__our-team__container__team-cards_card_right {
+         padding-left: 0;
+        padding-right: 30px;
+     }
+    .about__our-team__container__team-cards_card_img {
+        position: absolute;
+        width: 220px;
+        height: 178px;
+    }
+    .about__our-team__container__team-cards_card_right_name {
+        margin-left: 266px;
+        font-size: 20px;
+    }
+    .about__our-team__container__team-cards_card_right_post {
+        margin-left: 266px;
+        font-size: 18px;
+    }
+    .about__our-team__container__team-cards_card_right_text {
+        padding-left: 35px;
+        margin-top: 115px;
+    }
+    /*О нас*/
 }
 @media screen and (max-width: 1100px) {
     .header-top__left_logo {
@@ -293,7 +369,14 @@
         width: 100%;
         height: 100%;
     }
-
+    /*О нас*/
+    .about-page-section__container {
+        padding-top: 100px;
+    }
+    .bread {
+        padding-top: 116px;
+    }
+    /*О нас*/
 }
 @media screen and (max-width: 720px) {
     .header-top__container {
@@ -850,4 +933,85 @@
     .footer_top-conatiner__mobile {
         display: block;
     }
+    /*О нас*/
+    .about-advantages .wrapper {
+        width: 304px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .about-advantages .why-we__cards-container {
+        grid-template-columns: 100%;
+    }
+    .about-advantages .why-we__cards-container_card_left {
+        -webkit-background-size: 50%;
+        background-size: 50%;
+        margin-bottom: 15px;
+        margin-right: 0;
+    }
+    .about-advantages .why-we__cards-container_card {
+        height: 240px;
+        padding: 20px;
+    }
+    .bread_link {
+        font-size: 10px;
+    }
+    .about-page-section .wrapper{
+        width: 304px;
+    }
+    .bread {
+        width: 304px;
+        left: calc(50% - 152px);
+        padding-top: 65px;
+    }
+    .bread .bread_link:not(:last-child)::after {
+        font-size: 10px;
+    }
+    .about-page-section__container {
+        padding-top: 35px;
+    }
+    .about-page-section__container__text-block_p {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .about-page-section {
+        padding-top: 100px;
+    }
+    .about-advantages {
+        padding-top: 100px;
+    }
+    .about__our-team .wrapper{
+        width: 304px;
+    }
+    .about__our-team__container__team-cards_card {
+        height: 270px;
+        width: 100%;
+        padding-right: 17px;
+    }
+    .about__our-team__container__team-cards_card_img {
+        width: 120px;
+        height: 100px;
+    }
+    .about__our-team__container__team-cards_card_right_name {
+        font-size: 12px;
+        line-height: 15px;
+        margin-left: 132px;
+    }
+    .about__our-team__container__team-cards_card_right {
+        padding-top: 26px;
+        padding-right: 0;
+    }
+    .about__our-team__container__team-cards_card_right_post {
+        margin-left: 132px;
+        font-size: 8px;
+        line-height: 10px;
+    }
+    .about__our-team__container__team-cards_card_right_text {
+        margin-top: 50px;
+        font-size: 10px;
+        line-height: 14px;
+        text-indent: 10px;
+        padding-left: 17px;
+        padding-right: 0;
+    }
+    /*О нас*/
 }
