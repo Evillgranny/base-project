@@ -364,6 +364,27 @@
         width: 100%;
     }
     /*конкретная услуга*/
+    /*Сертефикаты*/
+    .certifications__content_row {
+        grid-template-columns: 212px 212px 212px;
+        margin-bottom: 100px;
+        width: 100%;
+    }
+    .serteficates-slider_item_text {
+        line-height: 15px;
+        font-size: 12px;
+    }
+    .serteficates-slider_item_img {
+        margin-bottom: 20px;
+    }
+    .wrapper2 {
+        padding-left: 0;
+        padding-right: 0;
+        width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /*Сертефикаты*/
 }
 @media screen and (max-width: 1100px) {
     .header-top__left_logo {
@@ -371,6 +392,13 @@
     }
     .header-top__right__mail-phone {
         margin-right: 20px;
+    }
+    .wrapper2 {
+        padding-left: 0;
+        padding-right: 0;
+        width: 700px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 @media screen and (max-width: 960px) {
@@ -477,6 +505,13 @@
     /*конкретная услуга*/
     .relize-project2 {
         padding-top: 100px;
+    }
+    .wrapper2 {
+        padding-left: 0;
+        padding-right: 0;
+        width: 700px;
+        margin-left: auto;
+        margin-right: auto;
     }
     /*конкретная услуга*/
 }
@@ -1322,5 +1357,28 @@
         margin-left: auto;
         margin-right: auto;
     }
+    .wrapper2 {
+        width: 304px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0;
+        padding-right: 0;
+    }
     /*Конкретный проект*/
+    /*Сертификаты*/
+    .certifications__content_row {
+        grid-template-columns: 142px 142px;
+        grid-row-gap: 10px;
+        margin-bottom: 60px;
+    }
+    .sub-main-not-bold {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .serteficates-slider_item_text {
+        font-size: 8px;
+        line-height: 10px;
+    }
+
+    /*Сертификаты*/
 }

@@ -486,6 +486,7 @@ body {
     margin-right: auto;
     margin-bottom: 24px;
     box-shadow: 0px 16px 24px rgba(94, 99, 102, 0.2);
+    max-width: 100%;
 }
 .serteficates-slider_item_text {
     font-style: normal;
@@ -1375,5 +1376,24 @@ body {
 .questions__container__form {
     display: flex;
     justify-content: space-between;
+}
+.sub-main-not-bold {
+    font-weight: 500;
+}
+.certifications__content_row {
+    display: grid;
+    grid-template-columns: 312px 312px 312px 312px;
+    justify-content: space-between;
+    grid-row-gap: 60px;
+    margin-bottom: 120px;
+}
+.pb-120  {
+    padding-bottom: 120px;
+}
+.certifications {
+    padding-top: 120px;
+}
+.certifications__content_row_item .serteficates-slider_item_text {
+    width: auto;
 }
 /*Конкретная услуга*/
