@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2a4cec2-2e48-4fc5-8924-7f82e2eead1b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/responsive.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ser1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ser11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ser2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ser21.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ser3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ser31.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ser4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ser41.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ser5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ser51.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/global.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/global.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -27,23 +20,32 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5171689">
+    <splitter split-orientation="horizontal" split-proportion="0.5339874">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="686">
-                  <caret line="697" column="52" selection-start-line="697" selection-start-column="52" selection-end-line="697" selection-end-column="52" />
+                <state relative-caret-position="8806">
+                  <caret line="518" column="14" selection-start-line="483" selection-start-column="4" selection-end-line="518" selection-end-column="14" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/about.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="561">
+                  <caret line="33" column="72" selection-start-line="33" selection-start-column="72" selection-end-line="33" selection-end-column="72" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/about.html">
+            <entry file="file://$PROJECT_DIR$/specific-service.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="694">
-                  <caret line="800" column="48" selection-start-line="800" selection-start-column="48" selection-end-line="800" selection-end-column="48" />
+                <state relative-caret-position="-59">
+                  <caret line="541" column="74" selection-start-line="541" selection-start-column="42" selection-end-line="541" selection-end-column="74" />
                 </state>
               </provider>
             </entry>
@@ -51,21 +53,21 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/css/responsive.css">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="762">
-                  <caret line="1000" column="26" selection-start-line="1000" selection-start-column="26" selection-end-line="1000" selection-end-column="26" />
+                <state relative-caret-position="17102">
+                  <caret line="1006" column="19" selection-start-line="1006" selection-start-column="19" selection-end-line="1006" selection-end-column="19" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/style.css">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/css/responsive.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="711">
-                  <caret line="955" column="1" lean-forward="true" selection-start-line="955" selection-start-column="1" selection-end-line="955" selection-end-column="1" />
+                <state relative-caret-position="366">
+                  <caret line="278" column="25" selection-start-line="278" selection-start-column="25" selection-end-line="278" selection-end-column="25" />
                 </state>
               </provider>
             </entry>
@@ -73,8 +75,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="3168">
-                  <caret line="198" selection-start-line="198" selection-end-line="198" />
+                <state relative-caret-position="646">
+                  <caret line="38" selection-start-line="38" selection-end-line="43" selection-end-column="7" />
                 </state>
               </provider>
             </entry>
@@ -82,17 +84,17 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/global.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="408">
-                  <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+                <state>
+                  <caret column="14" selection-start-column="14" selection-end-column="14" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/team.js">
+            <entry file="file://$PROJECT_DIR$/js/specific-service.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="323">
-                  <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+                <state relative-caret-position="494">
+                  <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
                 </state>
               </provider>
             </entry>
@@ -112,36 +114,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>main-slider__item_main</find>
-      <find>.main-slider__item_content</find>
-      <find>main-slider__item_btn</find>
-      <find>clients__slider__item__img</find>
-      <find>main-slider</find>
-      <find>.main-slider .slick-prev</find>
-      <find>.main-slider .slick-dots button</find>
-      <find>.clients__slider .slick-prev</find>
-      <find>.comments__slider .slick-prev</find>
-      <find>relize-project__photo-container__row</find>
-      <find>relize-project__photo-container__row__card_mask</find>
-      <find>.about__bottom_p</find>
-      <find>mask</find>
-      <find>comments__slider__item_right</find>
-      <find>.clients__slider .slick-next</find>
-      <find>.serteficates-slider .slick-prev</find>
-      <find>.comments__slider .slick-next</find>
-      <find>.main-slider .slick-dots</find>
-      <find>const</find>
-      <find>serteficates-slider_item_img</find>
-      <find>about-page-section__container__text-block</find>
-      <find>.about-page-section__container__text-block_float-img</find>
-      <find>why-we__cards-container_card_left4</find>
       <find>.wrapper</find>
       <find>about-page-section__container__text-block_float-img</find>
       <find>о нас</find>
       <find>comments__slider</find>
-      <find>getCallBack</find>
-      <find>clients__slider__item1</find>
       <find>about__our-team__container__team-cards_card</find>
+      <find>clients__slider__item1</find>
+      <find>about__our-team__container__team-cards_card_right_text</find>
+      <find>bread_link</find>
+      <find>mb-</find>
+      <find>h2</find>
+      <find>why-we</find>
+      <find>console</find>
+      <find>deb</find>
+      <find>debu</find>
+      <find>current-service-container_text</find>
+      <find>what-work__cards__card</find>
+      <find>gall</find>
+      <find>1</find>
+      <find>current-service-container_green-cards</find>
+      <find>main-sl</find>
+      <find>current-service-container_slider_item</find>
+      <find>current-service-container_slider_item_container</find>
+      <find>period-section</find>
+      <find>getCallBack</find>
+      <find>отзывы</find>
+      <find>clients__slider</find>
+      <find>.arrow-next</find>
+      <find>similar-services__container__slider</find>
+      <find>current-service-container_slider</find>
+      <find>current-service</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -153,12 +155,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/js/team.js" />
         <option value="$PROJECT_DIR$/js/index.js" />
-        <option value="$PROJECT_DIR$/js/global.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/about.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/js/specific-service.js" />
+        <option value="$PROJECT_DIR$/specific-service.html" />
+        <option value="$PROJECT_DIR$/js/global.js" />
         <option value="$PROJECT_DIR$/css/responsive.css" />
       </list>
     </option>
@@ -175,7 +179,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -192,6 +195,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -231,18 +235,22 @@
       <workItem from="1566407133086" duration="14124000" />
       <workItem from="1566900218042" duration="8002000" />
       <workItem from="1567021575000" duration="16000" />
-      <workItem from="1567681326512" duration="17140000" />
+      <workItem from="1567681326512" duration="26236000" />
+      <workItem from="1567778551833" duration="19813000" />
+      <workItem from="1567858544582" duration="12000" />
+      <workItem from="1567877790432" duration="3934000" />
+      <workItem from="1567939978781" duration="7058000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91923000" />
+    <option name="totallyTimeSpent" value="131836000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24815595" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24815595" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -261,7 +269,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2485129" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24815595" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -299,45 +307,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3168">
-          <caret line="198" selection-start-line="198" selection-end-line="198" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/global.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="686">
-          <caret line="697" column="52" selection-start-line="697" selection-start-column="52" selection-end-line="697" selection-end-column="52" />
+        <state relative-caret-position="8806">
+          <caret line="518" column="14" selection-start-line="483" selection-start-column="4" selection-end-line="518" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="694">
-          <caret line="800" column="48" selection-start-line="800" selection-start-column="48" selection-end-line="800" selection-end-column="48" />
+        <state relative-caret-position="561">
+          <caret line="33" column="72" selection-start-line="33" selection-start-column="72" selection-end-line="33" selection-end-column="72" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="711">
-          <caret line="955" column="1" lean-forward="true" selection-start-line="955" selection-start-column="1" selection-end-line="955" selection-end-column="1" />
+        <state relative-caret-position="17102">
+          <caret line="1006" column="19" selection-start-line="1006" selection-start-column="19" selection-end-line="1006" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/specific-service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" selection-start-line="38" selection-end-line="43" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specific-service.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-59">
+          <caret line="541" column="74" selection-start-line="541" selection-start-column="42" selection-end-line="541" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/global.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="762">
-          <caret line="1000" column="26" selection-start-line="1000" selection-start-column="26" selection-end-line="1000" selection-end-column="26" />
+        <state relative-caret-position="366">
+          <caret line="278" column="25" selection-start-line="278" selection-start-column="25" selection-end-line="278" selection-end-column="25" />
         </state>
       </provider>
     </entry>

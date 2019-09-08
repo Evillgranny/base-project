@@ -45,16 +45,7 @@ window.onload = function () {
 
     $(window).scroll(function () {
         let countersTop = counters.getBoundingClientRect().top
-        if ($(this).scrollTop() > 120 && $(this).width() > '960') {
-            $('.header-bottom').addClass("fixed-menu");
-        } else {
-            $('.header-bottom').removeClass("fixed-menu");
-        }
-        if ($(this).scrollTop() > 120 && $(this).width() < '960') {
-            $('.header').addClass("fixed-menu");
-        } else {
-            $('.header').removeClass("fixed-menu");
-        }
+
         if (countersTop < 600 && $(this).width() > '1460') {
             $('.about__numbers-container_card_top-number1').spincrement({
                 duration: 2000,
