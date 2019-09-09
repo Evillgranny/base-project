@@ -129,6 +129,7 @@ body {
     line-height: 22px;
     color: #FFFFFF;
     text-decoration: none;
+    cursor: pointer;
 }
 .header-bottom_lists_li_link:hover {
     color: #0EAF4A;
@@ -1392,8 +1393,179 @@ body {
 }
 .certifications {
     padding-top: 120px;
+    position: relative;
 }
 .certifications__content_row_item .serteficates-slider_item_text {
     width: auto;
 }
 /*Конкретная услуга*/
+.wrapper2 {
+    width: 1320px;
+    margin: 0 auto;
+    height: 100%;
+}
+.comments-section {
+    padding-top: 120px;
+    position: relative;
+}
+.comments-cards__card {
+    display: flex;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    border-bottom: 4px solid #009188;;
+}
+.comments-cards__card:last-child {
+    border: none;
+    padding-bottom: 0;
+}
+.comments-cards__card:first-child {
+    padding-top: 0;
+}
+.comments-cards__card_img {
+    margin-right: 24px;
+    box-shadow: 0px 16px 24px rgba(94, 99, 102, 0.2);
+    width: 312px;
+    height: 420px;
+}
+.comments-cards__card_right {
+    width: 984px;
+    padding: 35px 30px;
+    background: #FFFFFF;
+    align-self: flex-start;
+    box-shadow: 0px 16px 24px rgba(94, 99, 102, 0.2);
+}
+.comments-cards__card_right_top {
+    display: flex;
+    justify-content: space-between;
+}
+.comments-cards__card_right_top_stars {
+    display: flex;
+}
+.comments-cards__card_right_top_main {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    color: #009188;
+}
+.comments-cards__card_right_top_stars_star {
+    width: 30px;
+    height: 28px;
+    background: url(../img/comment-star-checked.png);
+    margin-right: 8px;
+}
+.comments-cards__card_right_top_stars_star:last-child {
+    margin-right: 0;
+}
+.comments-cards__card_right_top {
+    align-items: center;
+}
+.comments-cards__card_right_date {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 5px;
+    color: #004B4D;
+    margin-bottom: 18px;
+}
+.comments-cards__card_right_text {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-indent: 20px;
+    color: #5E6366;
+}
+.comments-cards__card_btn {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    display: block;
+    width: 220px;
+    height: 52px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 14px;
+    color: #FFFFFF;
+    cursor: pointer;
+    background: #0EAF4A;
+    border: none;
+}
+.get-comment__container_star {
+    width: 30px;
+    height: 30px;
+    background: url(../img/comment-star.png) no-repeat center center / 100% 100%;
+}
+.get-comment__container_input:checked ~ .get-comment__container_star_label .get-comment__container_star {
+    background: url(../img/comment-star-checked.png) no-repeat center center / 100% 100%;
+}
+.get-comment__container_star {
+    transform: rotate(180deg);
+    cursor: pointer;
+    margin-right: 10px;
+}
+.get-comment__container_star:last-child {
+    padding-right: 0;
+}
+.get-comment__container_input {
+    display: none;
+}
+.get-comment__container_top {
+    display: flex;
+    align-items: center;
+}
+.get-comment__container__stars {
+    display: flex;
+    transform: rotate(180deg);
+}
+.get-comment__container_text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    color: #5E6366;
+}
+.get-comment {
+    padding-top: 120px;
+}
+.get-comment__container_textarea {
+    background: #FBFBFB;
+    border: 1px solid #0EAF4A;
+    box-sizing: border-box;
+    resize: none;
+    height: 312px;
+    width: 100%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #B8B8B8;
+    text-align: left;
+    margin-top: 36px;
+    padding: 10px 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+.get-comment__container_textarea::-webkit-input-placeholder {color: #B8B8B8;}
+.get-comment__container_textarea::-moz-placeholder          {color: #B8B8B8;}/* Firefox 19+ */
+.get-comment__container_textarea:-moz-placeholder           {color: #B8B8B8;}/* Firefox 18- */
+.get-comment__container_textarea:-ms-input-placeholder      {color: #B8B8B8;}
+.get-comment__container_textarea__bottom-block {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: space-between;
+    margin-top: 36px;
+}
+.questions__container__form_btn {
+    font-family: 'Montserrat', sans-serif;
+}
+.get-comment__container {
+    padding-bottom: 120px;
+}
+.comments-cards__card_hr {
+    display: none;
+}
+/*Конкретная услуга*/
+

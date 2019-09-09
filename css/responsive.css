@@ -385,6 +385,55 @@
         margin-right: auto;
     }
     /*Сертефикаты*/
+    /*Отзывы*/
+    .comments-cards__card_img {
+        width: 160px;
+        height: 212px;
+        margin-right: 20px;
+    }
+    .comments-cards__card_right {
+        width: 520px;
+        padding: 20px;
+    }
+    .comments-cards__card_right_top_main {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .comments-cards__card_right_top_stars_star {
+        width: 16px;
+        height: 16px;
+        -webkit-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+    .comments-cards__card_right_top_stars_star:not(last-child) {
+        margin-right: 4px;
+    }
+    .comments-cards__card_right_date {
+        font-size: 12px;
+        line-height: 15px;
+        margin-top: 4px;
+        margin-bottom: 16px;
+    }
+    .comments-cards__card_right_text {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .comments-cards__card {
+        padding-bottom: 48px;
+        padding-top: 48px;
+    }
+    .get-comment__container_text {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .get-comment__container_textarea__bottom-block {
+        grid-template-columns: 340px 340px;
+        display: grid;
+    }
+    .get-comment__container {
+        padding-bottom: 100px;
+    }
+    /*Отзывы*/
 }
 @media screen and (max-width: 1100px) {
     .header-top__left_logo {
@@ -514,6 +563,11 @@
         margin-right: auto;
     }
     /*конкретная услуга*/
+    /*Отзывы*/
+    .comments-section__container {
+        padding-top: 100px;
+    }
+    /*Отзывы*/
 }
 @media screen and (max-width: 720px) {
     .header-top__container {
@@ -1381,4 +1435,118 @@
     }
 
     /*Сертификаты*/
+    /*Отзывы*/
+    .comments-cards__card {
+        position: relative;
+        box-shadow: 0px 16px 24px rgba(94, 99, 102, 0.2);
+        background: #fff;
+        padding: 12px;
+        width: 304px;
+        margin-left: auto;
+        margin-right: auto;
+        border: none;
+    }
+    .comments-cards__card:first-child {
+        padding-top: 12px;
+    }
+    .comments-cards__card:not(:first-child) {
+        margin-top: 28px;
+    }
+    .comments-cards__card_img {
+        position: absolute;
+        width: 81px;
+        height: 105px;
+        left: 0;
+        top: 0;
+        margin: 0 auto;
+    }
+    .comments-cards__card_right {
+        width: 100%;
+        background: none;
+        box-shadow: none;
+        padding: 0;
+    }
+    .comments-cards__card_right_top {
+        flex-direction: column;
+        left: 105px;
+        top: 12px;
+        position: absolute;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .comments-cards__card_right_top_main {
+        font-size: 12px;
+        line-height: 15px;
+        margin-bottom: 6px;
+    }
+    .comments-cards__card_right_top_stars_star {
+        width: 13px;
+        height: 12px;
+    }
+    .comments-cards__card_right_top_stars_star:not(last-child) {
+        margin-right: 1px;
+    }
+    .comments-cards__card_right_date {
+        display: none;
+    }
+    .comments-cards__card_right_text {
+        font-size: 8px;
+        line-height: 10px;
+    }
+    .comments-cards__card:last-child {
+        padding-bottom: 12px;
+    }
+    .comments-cards__card_right_text1 {
+        margin-top: 100px !important;
+    }
+    .comments-section {
+        padding-top: 80px;
+    }
+    .comments-section__container {
+        padding-top: 60px;
+    }
+    .comments-cards__card_btn {
+        margin-top: 20px;
+        width: 142px;
+        height: 36px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .get-comment {
+        padding-top: 60px;
+    }
+    .get-comment__container_text {
+        font-size: 12px;
+    }
+    .get-comment__container_star {
+        width: 28px;
+        height: 25px;
+        margin-right: 5px;
+    }
+    .get-comment__container__stars {
+        margin-left: 16px;
+    }
+    .get-comment__container_textarea {
+        height: 232px;
+        font-size: 12px;
+        line-height: 19px;
+        margin-top: 30px;
+    }
+    .get-comment__container_textarea__bottom-block {
+        margin-left: auto;
+        margin-right: auto;
+        grid-template-columns: 220px;
+        width: 220px;
+    }
+    .get-comment__container {
+        padding-bottom: 60px;
+    }
+    .comments-cards__card_hr {
+        display: block;
+        width: 100%;
+        margin-top: 28px;
+        height: 4px;
+        background: #009188;
+    }
+    /*Отзывы*/
 }
