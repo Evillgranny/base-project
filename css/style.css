@@ -154,6 +154,12 @@ body {
     left: calc(50% - 960px);
     top: calc(50% - 540px);
 }
+.all-proj-btn {
+    margin-top: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 .main-slider__item_btn {
     width: 220px;
 }
@@ -1631,6 +1637,7 @@ body {
     letter-spacing: 0.03em;
     text-indent: 20px;
     color: #5E6366;
+    margin-bottom: 5px;
 }
 .service-text-section_p_link {
     font-style: normal;
@@ -1823,7 +1830,38 @@ body {
     margin-top: 60px;
 }
 /*Контакты*/
-
+/*Проектные работы*/
+.prj-works {
+    padding-top: 120px;
+    position: relative;
+}
+.prj-works__container_top-images {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.prj-works__container_top-images_img {
+    width: 648px;
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../img/b1.png) center center / 100% 100%;
+}
+.prj-works__container_top-images_img2 {
+    background: url(../img/b2.png) center center / 100% 100%;
+}
+.prj-works__container_top-images_img_text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    max-width: 450px;
+    color: #FFFFFF;
+}
+/*Проектные работы*/
 
 .mb-0 {
     margin-bottom: 0;

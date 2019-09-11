@@ -508,6 +508,19 @@
         margin-bottom: 0;
     }
     /*Контакты*/
+    /*Проектные работы*/
+    .prj-works__container_top-images_img {
+        width: 340px;
+        height: 280px;
+    }
+    .prj-works__container_top-images_img_text {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .prj-works__container_top-images {
+        margin-bottom: 46px;
+    }
+    /*Проектные работы*/
 }
 @media screen and (max-width: 1100px) {
     .header-top__left_logo {
@@ -652,6 +665,11 @@
         padding-top: 100px;
     }
     /*Контакты*/
+    /*Проектные работы*/
+    .prj-works__container {
+        padding-top: 100px;
+    }
+    /*Проектные работы*/
 }
 @media screen and (max-width: 720px) {
     .header-top__container {
@@ -1743,5 +1761,32 @@
     .container-for-map iframe{
         height: 304px;
     }
+    .all-proj-btn {
+        margin-top: 20px;
+    }
     /*контакты*/
+    /*Проектные работы*/
+    .prj-works {
+        padding-top: 80px;
+    }
+    .prj-works__container {
+        padding-top: 60px;
+    }
+    .prj-works__container_top-images_img {
+        width: 142px;
+        height: 120px;
+    }
+    .prj-works__container_top-images_img_text {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+    }
+    .prj-works__container_top-images {
+        margin-bottom: 20px;
+    }
+    /*Проектные работы*/
 }
