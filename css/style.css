@@ -958,9 +958,6 @@ body {
     color: #5E6366;
     margin-top: 24px;
 }
-.mb-0 {
-    margin-bottom: 0;
-}
 /*о нас*/
 /*Конкретная услуга*/
 .current-service {
@@ -1655,6 +1652,179 @@ body {
     color: #0EAF4A;
     text-decoration: none;
 }
-
 /*Услуги*/
+/*Контакты*/
+.contacts-page {
+    padding-top: 120px;
+    position: relative;
+}
+.contacts-page__container_left_sub-main {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    color: #009188;
+    margin-bottom: 12px;
+}
+.contacts-page__container_left_text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #5E6366;
+    margin-bottom: 5px;
+}
+.contacts-page__container_left_row {
+    margin-bottom: 60px;
+}
+.contacts-page__container_left_text_link {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #5E6366;
+}
+.contacts-page__download-ser {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #5E6366;
+}
+.contacts-page__container_right_form {
+    width: 536px;
+    height: 530px;
+    box-shadow: 0px 16px 24px rgba(94, 99, 102, 0.2);
+}
+.contacts-page__container_lr {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    grid-row-gap: 60px;
+}
+.contacts-page__container_right_form_input::-webkit-input-placeholder {color: #B8B8B8;}
+.contacts-page__container_right_form_input::-moz-placeholder          {color: #B8B8B8;}
+.contacts-page__container_right_form_input:-moz-placeholder           {color: #B8B8B8;}
+.contacts-page__container_right_form_input:-ms-input-placeholder      {color: #B8B8B8;}
+.contacts-page__container_right_form_input {
+    background: #FFFFFF;
+    border: 1px solid #0EAF4A;
+    box-sizing: border-box;
+    width: 340px;
+    height: 52px;
+    margin-bottom: 32px;
+    color: #5E6366;
+    font-size: 18px;
+    line-height: 21px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.contacts-page__container_right_form {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.contacts-page__container_right_form_btn {
+    height: 52px;
+    background: #0EAF4A;
+    width: 340px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 14px;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+}
+.contacts-page__container_right_form_main {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #009188;
+    margin-bottom: 24px;
+}
+.contacts-page__container_right_form_text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #5E6366;
+    margin-bottom: 36px;
+    width: 240px;
+}
+.contacts-page__container_columns {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    justify-content: space-between;
+}
+.contacts-page__container_columns_column_main {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    color: #009188;
+    margin-bottom: 12px;
+}
+.contacts-page__container_columns_column_ul_li {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: #5E6366;
+}
+.contacts-page__container_columns_column_ul_li_a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: #5E6366;
+    text-decoration: none;
+}
+.map {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.map__container_img-row_card {
+    width: 424px;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.map__container_img-row_card1 {
+     background: url(../img/h1.png) center center / 100% 100%;
+}
+.map__container_img-row_card2 {
+    background: url(../img/h2.png) center center / 100% 100%;
+}
+.map__container_img-row_card3 {
+    background: url(../img/h3.png) center center / 100% 100%;
+}
+.map__container_img-row_card_text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+.map__container_img-row {
+    display: flex;
+    justify-content: space-between;
+}
+.container-for-map {
+    margin-top: 60px;
+}
+/*Контакты*/
 
+
+.mb-0 {
+    margin-bottom: 0;
+}

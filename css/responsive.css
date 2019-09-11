@@ -462,6 +462,52 @@
         line-height: 24px;
     }
     /*Услуги*/
+    /*Контакты*/
+    .contacts-page__container_lr {
+        display: flex;
+        flex-direction: column;
+    }
+    .contacts-page__container_left_row {
+        margin-bottom: 20px;
+    }
+    .contacts-page__container_left {
+        order: 1;
+    }
+    .contacts-page__container_right {
+        order: 3;
+    }
+    .contacts-page__container_columns {
+        order: 2;
+        flex-direction: column;
+    }
+    .contacts-page__container_columns_column {
+        margin-bottom: 20px;
+    }
+    .contacts-page__container_right_form {
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+    .map__container_img-row_card {
+        width: 340px;
+        height: 280px;
+        margin-bottom: 20px;
+    }
+    .map__container_img-row {
+        flex-wrap: wrap;
+    }
+    .map__container_img-row_card_text {
+        font-size: 20px;
+    }
+    .container-for-map iframe {
+        height: 340px;
+    }
+    .container-for-map {
+        margin-top: 36px;
+    }
+    .map__container_img-row_card3 {
+        margin-bottom: 0;
+    }
+    /*Контакты*/
 }
 @media screen and (max-width: 1100px) {
     .header-top__left_logo {
@@ -601,6 +647,11 @@
         padding-top: 100px;
     }
     /*Услуги*/
+    /*Контакты*/
+    .contacts-page__container {
+        padding-top: 100px;
+    }
+    /*Контакты*/
 }
 @media screen and (max-width: 720px) {
     .header-top__container {
@@ -1613,4 +1664,84 @@
         line-height: 14px;
     }
     /*Услуги*/
+    /*контакты*/
+    .contacts-page {
+        padding-top: 80px;
+    }
+    .contacts-page__container {
+        padding-top: 60px;
+    }
+    .contacts-page__container_left_sub-main {
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 4px;
+    }
+    .contacts-page__container_left_text {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .contacts-page__container_left_text_link {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .contacts-page__download-ser {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .contacts-page__container_columns_column_main {
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 4px;
+    }
+    .contacts-page__container_columns_column_ul_li {
+        font-size: 12px;
+        line-height: 15px
+    }
+    .contacts-page__container_columns_column_ul_li_a {
+        font-size: 12px;
+        line-height: 15px
+    }
+    .contacts-page__container_right_form {
+        width: 100%;
+        height: 388px;
+        margin-top: 60px;
+    }
+    .contacts-page__container_right_form_main {
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 12px;
+    }
+    .contacts-page__container_right_form_text {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 32px;
+    }
+    .contacts-page__container_right_form_input {
+        width: 220px;
+        height: 36px;
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+    .contacts-page__container_right_form_btn {
+        width: 220px;
+        height: 36px;
+        font-size: 16px;
+    }
+    .map__container_img-row_card {
+        width: 142px;
+        height: 100px;
+    }
+    .map__container_img-row_card_text {
+        font-size: 12px;
+        line-height: 15;
+    }
+    .map {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .container-for-map iframe{
+        height: 304px;
+    }
+    /*контакты*/
 }
