@@ -475,7 +475,6 @@ body {
     font-weight: normal;
     font-size: 26px;
     line-height: 40px;
-    text-indent: 20px;
     color: #FFFFFF;
     margin-bottom: 60px;
     padding-left: 25px;
@@ -494,6 +493,7 @@ body {
     margin-bottom: 24px;
     box-shadow: 0px 16px 24px rgba(94, 99, 102, 0.2);
     max-width: 100%;
+    cursor: pointer;
 }
 .serteficates-slider_item_text {
     font-style: normal;
@@ -586,7 +586,6 @@ body {
     line-height: 24px;
     display: flex;
     align-items: center;
-    text-indent: 20px;
     color: #FFFFFF;
     margin-bottom: 36px;
 }
@@ -767,6 +766,19 @@ body {
     left: 0;
     display: none;
 }
+.get-project {
+    background: rgba(0, 0, 0, 0.35);
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.get-project-btn {
+    cursor: pointer;
+    color: #0EAF4A;
+}
 .call-back-form__container {
     position: relative;
     width: 464px;
@@ -891,7 +903,6 @@ body {
     font-weight: normal;
     font-size: 26px;
     line-height: 32px;
-    text-indent: 20px;
     color: #5E6366;
     margin-bottom: 20px;
 }
@@ -960,7 +971,6 @@ body {
     font-weight: normal;
     font-size: 20px;
     line-height: 26px;
-    text-indent: 20px;
     color: #5E6366;
     margin-top: 24px;
 }
@@ -975,7 +985,6 @@ body {
     font-weight: normal;
     font-size: 26px;
     line-height: 32px;
-    text-indent: 20px;
     color: #5E6366;
     margin-bottom: 25px;
 }
@@ -987,9 +996,8 @@ body {
     font-weight: 500;
     font-size: 26px;
     line-height: 32px;
-    text-indent: 20px;
-    text-decoration-line: underline;
-    color: #5E6366;
+    text-decoration-line: none;
+    color: #0EAF4A;;
     cursor: pointer;
 }
 .current-service-container__slider__item {
@@ -1178,6 +1186,7 @@ body {
     font-size: 26px;
     line-height: 36px;
     color: #004B4D;
+    text-align: center;
 }
 .current-service-container_green-cards_card {
     height: 224px;
@@ -1276,7 +1285,6 @@ body {
     font-size: 26px;
     line-height: 32px;
     letter-spacing: 0.03em;
-    text-indent: 20px;
     color: #0EAF4A !important;
     text-decoration: none !important;
 }
@@ -1477,7 +1485,6 @@ body {
     font-weight: normal;
     font-size: 20px;
     line-height: 24px;
-    text-indent: 20px;
     color: #5E6366;
 }
 .comments-cards__card_btn {
@@ -1592,6 +1599,10 @@ body {
     justify-content: center;
     height: 300px;
     box-shadow: 0px 16px 24px rgba(94, 99, 102, 0.2);
+    transition: .5s;
+}
+.service-gallery__container__cards_card:hover {
+    transform: scale(1.05);
 }
 .service-gallery__container__cards {
     display: grid;
@@ -1635,7 +1646,6 @@ body {
     font-size: 26px;
     line-height: 36px;
     letter-spacing: 0.03em;
-    text-indent: 20px;
     color: #5E6366;
     margin-bottom: 5px;
 }
@@ -1645,9 +1655,8 @@ body {
     font-size: 26px;
     line-height: 36px;
     letter-spacing: 0.03em;
-    text-indent: 20px;
-    text-decoration-line: underline;
-    color: #5E6366;
+    text-decoration-line: none;
+    color: #0EAF4A;
 }
 .service-text-section_p_link-tel {
     font-style: normal;
@@ -1655,7 +1664,6 @@ body {
     font-size: 26px;
     line-height: 36px;
     letter-spacing: 0.03em;
-    text-indent: 20px;
     color: #0EAF4A;
     text-decoration: none;
 }
@@ -1697,8 +1705,8 @@ body {
     font-weight: normal;
     font-size: 20px;
     line-height: 24px;
-    text-decoration-line: underline;
-    color: #5E6366;
+    text-decoration-line: none;
+    color: #0EAF4A;
 }
 .contacts-page__container_right_form {
     width: 536px;
@@ -1805,6 +1813,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: .5s;
+}
+.map__container_img-row_card:hover {
+    transform: scale(1.05);
 }
 .map__container_img-row_card1 {
      background: url(../img/h1.png) center center / 100% 100%;
@@ -1847,6 +1859,10 @@ body {
     align-items: center;
     justify-content: center;
     background: url(../img/b1.png) center center / 100% 100%;
+    transition: .5s;
+}
+.prj-works__container_top-images_img:hover {
+    transform: scale(1.05);
 }
 .prj-works__container_top-images_img2 {
     background: url(../img/b2.png) center center / 100% 100%;

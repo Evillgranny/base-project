@@ -45,109 +45,43 @@ window.onload = function () {
 
     $(window).scroll(function () {
         let countersTop = counters.getBoundingClientRect().top
+        if ($('.about__numbers-container_card_top-number').text().length == 0) {
+            if (countersTop < 600) {
+                $('.about__numbers-container_card_top-number1').spincrement({
+                    duration: 2000,
+                    from: 0,
+                    to: 11
+                });
+                $('.about__numbers-container_card_top-number2').spincrement({
+                    duration: 2000,
+                    from: 0,
+                    to: 13
+                });
+                $('.about__numbers-container_card_top-number_span').spincrement({
+                    duration: 2000,
+                    from: 0,
+                    to: 500
+                });
+                $('.about__numbers-container_card_top-number3').spincrement({
+                    duration: 2000,
+                    from: 0,
+                    to: 3.75,
+                    decimalPlaces: 2,
+                    decimalPoint: 	','
+                });
+                $('.about__numbers-container_card_top-number4').spincrement({
+                    duration: 2000,
+                    from: 0,
+                    to: 284
+                });
+                $('.about__numbers-container_card_top-number5').spincrement({
+                    duration: 2000,
+                    from: 0,
+                    to: 38
+                });
+            }
+        }
 
-        if (countersTop < 600 && $(this).width() > '1460') {
-            $('.about__numbers-container_card_top-number1').spincrement({
-                duration: 2000,
-                from: 0,
-                to: 11
-            });
-            $('.about__numbers-container_card_top-number2').spincrement({
-                duration: 2000,
-                from: 0,
-                to: 13
-            });
-            $('.about__numbers-container_card_top-number_span').spincrement({
-                duration: 2000,
-                from: 0,
-                to: 500
-            });
-            $('.about__numbers-container_card_top-number3').spincrement({
-                duration: 2000,
-                from: 0,
-                to: 3.75,
-                decimalPlaces: 2,
-                decimalPoint: 	','
-            });
-            $('.about__numbers-container_card_top-number4').spincrement({
-                duration: 2000,
-                from: 0,
-                to: 284
-            });
-            $('.about__numbers-container_card_top-number5').spincrement({
-                duration: 2000,
-                from: 0,
-                to: 38
-            });
-        }
-        if ($(this).scrollTop() > 3300 && $(this).width() < '1460') {
-            $('.about__numbers-container_card_top-number1').spincrement({
-                duration: 2000,
-                from: 0,
-                to: 11
-            });
-            $('.about__numbers-container_card_top-number2').spincrement({
-                duration: 2000,
-                from: 0,
-                to: 13
-            });
-            $('.about__numbers-container_card_top-number_span').spincrement({
-                duration: 2000,
-                from: 0,
-                to: 500
-            });
-            $('.about__numbers-container_card_top-number3').spincrement({
-                duration: 2000,
-                from: 0,
-                to: 3.75,
-                decimalPlaces: 2,
-                decimalPoint: 	','
-            });
-            $('.about__numbers-container_card_top-number4').spincrement({
-                duration: 2000,
-                from: 0,
-                to: 284
-            });
-            $('.about__numbers-container_card_top-number5').spincrement({
-                duration: 2000,
-                from: 0,
-                to: 38
-            });
-        }
-        if ($(this).scrollTop() > 1200 && $(this).width() < '750') {
-            $('.about__numbers-container_card_top-number1').spincrement({
-                duration: 2000,
-                from: 0,
-                to: 11
-            });
-            $('.about__numbers-container_card_top-number2').spincrement({
-                duration: 2000,
-                from: 0,
-                to: 13
-            });
-            $('.about__numbers-container_card_top-number_span').spincrement({
-                duration: 2000,
-                from: 0,
-                to: 500
-            });
-            $('.about__numbers-container_card_top-number3').spincrement({
-                duration: 2000,
-                from: 0,
-                to: 3.75,
-                decimalPlaces: 2,
-                decimalPoint: 	','
-            });
-            $('.about__numbers-container_card_top-number4').spincrement({
-                duration: 2000,
-                from: 0,
-                to: 284
-            });
-            $('.about__numbers-container_card_top-number5').spincrement({
-                duration: 2000,
-                from: 0,
-                to: 38
-            });
-        }
     });
 
 
