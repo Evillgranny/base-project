@@ -531,6 +531,17 @@
         font-size: 20px;
     }
     /*Портфолио*/
+    /*Портфолио подкатегория*/
+    .subcategory__container__gallery {
+        grid-template-columns: 340px 340px;
+    }
+    .subcategory__container__gallery__item {
+        height: 280px;
+    }
+    .subcategory__container__gallery__item_main {
+        font-size: 20px;
+    }
+    /*Портфолио подкатегория*/
 }
 @media screen and (max-width: 1100px) {
     .header-top__left_logo {
@@ -685,6 +696,11 @@
         padding-top: 100px;
     }
     /*Портфолио*/
+    /*Портфолио подкатегория*/
+    .subcategory__container {
+        padding-top: 100px;
+    }
+    /*Портфолио подкатегория*/
 }
 @media screen and (max-width: 720px) {
     .header-top__container {
@@ -1821,4 +1837,22 @@
         padding-top: 60px;
     }
     /*Портфолио*/
+    /*Портфолио подкатегория*/
+    .subcategory {
+        padding-top: 80px;
+    }
+    .subcategory__container {
+        padding-top: 60px;
+    }
+    .subcategory__container__gallery {
+        grid-template-columns: 142px 142px;
+    }
+    .subcategory__container__gallery__item {
+        height: 120px;
+    }
+    .subcategory__container__gallery__item_main {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    /*Портфолио подкатегория*/
 }
