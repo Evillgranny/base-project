@@ -98,10 +98,6 @@
     .serteficates-slider {
         width: 460px;
     }
-    .serteficates-slider_item_img {
-        width: 220px;
-        height: 312px;
-    }
     .serteficates-slider_item_text {
         width: 220px;
         font-size: 12px;
@@ -236,6 +232,7 @@
     }
     .about-page-section__container__text-block_p {
         margin-bottom: 10px;
+
     }
     .about__our-team .wrapper {
         width: 700px;
@@ -365,7 +362,7 @@
     /*конкретная услуга*/
     /*Сертефикаты*/
     .certifications__content_row {
-        grid-template-columns: 212px 212px 212px;
+        grid-template-columns: 220px 220px 220px;
         margin-bottom: 100px;
         width: 100%;
     }
@@ -375,6 +372,7 @@
     }
     .serteficates-slider_item_img {
         margin-bottom: 20px;
+        height: 312px;
     }
     .wrapper2 {
         padding-left: 0;
@@ -542,6 +540,52 @@
         font-size: 20px;
     }
     /*Портфолио подкатегория*/
+    /*Портфолио конкретный проект*/
+    .specific-project__container__content {
+        width: 100%;
+        flex-direction: column;
+    }
+    .slider-for {
+        width: 100%;
+    }
+    .specific-project .wrapper2 {
+        width: 100%;
+    }
+    .slider-nav {
+        margin-left: 35px;
+    }
+    .specific-project__container__right {
+        margin-top: 45px;
+    }
+    .slider-for__item2 {
+        height: 80px;
+        margin-right: 20px;
+    }
+    .specific-project-text {
+        padding-top: 100px;
+    }
+    .comments__slider__item_left-no-slider {
+        margin-right: 0;
+    }
+    .video-feedback__container {
+        height: 380px;
+    }
+    .similar-project__container__slider {
+        width: 460px;
+    }
+    .similar-project__container__slider__item {
+        height: 280px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .specific-project__container__right {
+        width: 100%;
+        padding-top: 35px;
+        padding-bottom: 35px;
+        height: auto;
+    }
+
+    /*Портфолио конкретный проект*/
 }
 @media screen and (max-width: 1100px) {
     .header-top__left_logo {
@@ -612,9 +656,6 @@
         font-size: 48px;
         margin-bottom: 36px;
         line-height: 59px;
-    }
-    .main-slider__item_content {
-        padding-top: 40%;
     }
     .fixed-menu {
         position: fixed;
@@ -701,6 +742,16 @@
         padding-top: 100px;
     }
     /*Портфолио подкатегория*/
+    /*Портфолио конкретный проект*/
+    .specific-project__container {
+        padding-top: 100px;
+    }
+    /*Портфолио конкретный проект*/
+    /*Сертификаты*/
+    .certifications__content {
+        padding-top: 100px;
+    }
+    /*Сертификаты*/
 }
 @media screen and (max-width: 720px) {
     .header-top__container {
@@ -1000,8 +1051,7 @@
         width: 240px;
     }
     .serteficates-slider_item_img {
-        width: 110px;
-        height: 160px;
+        height: 200px;
         margin-bottom: 10px;
     }
     .serteficates-slider_item_text {
@@ -1203,9 +1253,6 @@
     }
     .main-slider__item_img {
         height: 495px;
-        width: 820px;
-        top: calc(50% - 248px);
-        left: calc(50% - 410px);
     }
     .header-top__left_logo {
         width: 70px;
@@ -1355,10 +1402,10 @@
         margin-bottom: 20px;
     }
     .current-service-container__slider__item {
-        height: 250px;
+        height: 210px;
     }
     .current-service-container__slider {
-        height: 250px;
+        height: 210px;
         margin-bottom: 32px;
     }
     .current-service-container__slider .slick-dots {
@@ -1401,6 +1448,7 @@
     .current-service-container_green-cards_card_number {
         font-size: 80px;
         line-height: 98px;
+        margin-right: 0;
     }
     .current-service-container_green-cards_card_text {
         font-size: 12px;
@@ -1556,6 +1604,9 @@
         grid-row-gap: 10px;
         margin-bottom: 60px;
     }
+    .serteficates-slider_item_img {
+        height: 200px;
+    }
     .sub-main-not-bold {
         font-size: 12px;
         line-height: 15px;
@@ -1564,7 +1615,12 @@
         font-size: 8px;
         line-height: 10px;
     }
-
+    .certifications {
+        padding-top: 80px;
+    }
+    .certifications__content {
+        padding-top: 60px;
+    }
     /*Сертификаты*/
     /*Отзывы*/
     .comments-cards__card {
@@ -1855,4 +1911,106 @@
         line-height: 12px;
     }
     /*Портфолио подкатегория*/
+    /*Портфолио конкретный проект*/
+    .specific-project {
+        padding-top: 80px;
+    }
+    .specific-project__container {
+        padding-top: 60px;
+    }
+    .slider-for__item  {
+        height: 240px;
+    }
+    .slider-for .slick-dots {
+        width: 170px;
+        height: 46px;
+        padding: 0 0 4px 13px;
+    }
+    .slider-for .slick-prev {
+        right: 106px;
+        bottom: 24px;
+        width: 47px;
+        height: 15px;
+        background: url(../img/dh-arr.png) no-repeat center center / contain;
+    }
+    .slider-for .slick-next {
+        right: 17px;
+        bottom: 24px;
+        width: 47px;
+        height: 15px;
+        background: url(../img/dh-arr.png) no-repeat center center / contain;
+    }
+    .slider-for .slick-dots button {
+        font-size: 9px;
+        padding-left: 6px;
+    }
+    .slider-for .slick-dots .slick-active button {
+        font-size: 16px;
+    }
+    .specific-project__container__right_ul_li_text {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .specific-project__container__right_ul_li_span {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .specific-project__container__right_ul_li_ul_li {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .specific-project-text {
+        padding-top: 60px;
+    }
+    .customer-feedback {
+        padding-top: 60px;
+    }
+    .video-feedback {
+        padding-top: 60px;
+    }
+    .video-feedback__container {
+        height: 165px;
+    }
+    .similar-project__container__slider {
+        width: 200px;
+    }
+    .similar-project {
+        padding-top: 60px;
+    }
+    .similar-project__container__slider__item {
+        height: 160px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .similar-project__container__slider__item_text {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .similar-project__container__slider .slick-next {
+        width: 47px;
+        height: 15px;
+        background: url(../img/moblie-grenn-arr.png) no-repeat center center / contain;
+        right: -50px;
+    }
+    .similar-project__container__slider .slick-next:hover {
+        background: url(../img/moblie-grenn-arr.png) no-repeat center center / contain;
+    }
+    .similar-project__container__slider .slick-prev {
+        width: 47px;
+        height: 15px;
+        background: url(../img/moblie-grenn-arr.png) no-repeat center center / contain;
+        left: -50px;
+    }
+    .similar-project__container__slider .slick-prev:hover {
+        background: url(../img/moblie-grenn-arr.png) no-repeat center center / contain;
+    }
+    .slider-nav {
+        width: 304px;
+        margin-left: 15px;
+        margin-top: 15px;
+    }
+    .slider-for__item2 {
+        height: 46px;
+    }
+    /*Портфолио конкретный проект*/
 }

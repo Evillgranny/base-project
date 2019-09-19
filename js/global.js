@@ -10,8 +10,6 @@
             $('.header-bottom').show()
         }
     });
-
-
     $('.form-close').click(function () {
         $('.popup').fadeOut(500)
     });
@@ -57,7 +55,7 @@
                  {src: "img/s5-2.png"}
                ],{}
            )
-        })
+        });
 
         $('.serteficates-slider_item_img_in2').click(function () {
             $.fancybox.open(
@@ -68,7 +66,7 @@
                     {src: "img/s2-3.png"}
                 ],{}
             )
-        })
+        });
 
         $('.serteficates-slider_item_img_in3').click(function () {
             $.fancybox.open(
@@ -77,7 +75,7 @@
                     {src: "img/s7-1.png"}
                 ],{}
             )
-        })
+        });
 
         $('.serteficates-slider_item_img_in4').click(function () {
             $.fancybox.open(
@@ -88,6 +86,17 @@
                     {src: "img/s9-3.png"}
                 ],{}
             )
-        })
+        });
+
+        $('.serteficates-slider_item_img_in0').click(function () {
+            $.fancybox.open(
+                [
+                    {src: "img/sd01.png"},
+                    {src: "img/sd02.png"},
+                    {src: "img/sd03.png"}
+                ],{}
+            )
+        });
+
     }
 })();

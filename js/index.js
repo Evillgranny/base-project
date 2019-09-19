@@ -1,5 +1,6 @@
+const counters = document.querySelector('.about__numbers-container');
+
 window.onload = function () {
-    const counters = document.querySelector('.about__numbers-container')
     $('.main-slider').slick({
         slide: '.main-slider__item',
         arrows: true,
