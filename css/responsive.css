@@ -603,6 +603,10 @@
     }
 }
 @media screen and (max-width: 960px) {
+
+    .header-top-no-home {
+        background: rgba(0, 75, 77, 0.7) url(../img/hmnh.png) no-repeat center center / cover;
+    }
     .wrapper {
         padding-left: 35px;
         padding-right: 35px;
@@ -1050,6 +1054,12 @@
     .serteficates-slider {
         width: 240px;
     }
+    .serteficates-slider .serteficates-slider_item_img {
+        width: auto;
+        height: 150px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
     .serteficates-slider_item_img {
         height: 200px;
         margin-bottom: 10px;
@@ -1343,7 +1353,10 @@
         padding-top: 100px;
     }
     .about-advantages {
-        padding-top: 100px;
+        padding-top: 60px;
+    }
+    .about__our-team {
+        padding-top: 60px;
     }
     .about__our-team .wrapper{
         width: 304px;
@@ -1352,6 +1365,7 @@
         height: 270px;
         width: 100%;
         padding-right: 17px;
+        margin-bottom: 20px;
     }
     .about__our-team__container__team-cards_card_img {
         width: 120px;
@@ -1564,6 +1578,7 @@
     }
     .questions {
         padding-top: 60px;
+        padding-bottom: 60px;
     }
 
     .current-service-container_text {
@@ -1837,7 +1852,7 @@
     }
     .map__container_img-row_card_text {
         font-size: 12px;
-        line-height: 15;
+        line-height: 15px;
     }
     .map {
         padding-top: 60px;
