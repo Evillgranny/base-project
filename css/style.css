@@ -1865,6 +1865,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin-bottom: 60px;
+    flex-wrap: wrap;
 }
 .prj-works__container_top-images_img {
     width: 648px;
@@ -1875,12 +1876,16 @@ body {
     background: url(../img/b1.png) center center / 100% 100%;
     transition: .5s;
     text-decoration: none;
+    margin-bottom: 32px;
 }
 .prj-works__container_top-images_img:hover {
     transform: scale(1.05);
 }
 .prj-works__container_top-images_img2 {
     background: url(../img/b2.png) center center / 100% 100%;
+}
+.prj-works__container_top-images_img3 {
+    background: grey;
 }
 .prj-works__container_top-images_img_text {
     font-style: normal;

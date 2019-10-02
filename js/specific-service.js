@@ -4,7 +4,8 @@ window.onload = function () {
         dots: true,
         speed: 500,
         prevArrow:  `<button type="button" class="arrow-prev"></button>`,
-        nextArrow:  `<button type="button" class="arrow-next"></button>`
+        nextArrow:  `<button type="button" class="arrow-next"></button>`,
+        infinite: false
     });
 
     $('.current-service-container_slider').slick({
