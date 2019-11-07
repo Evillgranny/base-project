@@ -763,6 +763,9 @@
         padding-top: 100px;
     }
     /*Сертификаты*/
+    .portfolio-page__container__gallery2 {
+        margin-bottom: 32px;
+    }
 }
 @media screen and (max-width: 720px) {
     .header-top__container {
@@ -2036,4 +2039,7 @@
         height: 46px;
     }
     /*Портфолио конкретный проект*/
+    .portfolio-page__container__gallery2 {
+        margin-bottom: 20px;
+    }
 }

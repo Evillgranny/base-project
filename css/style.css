@@ -2227,3 +2227,9 @@ body {
 .mb-0 {
     margin-bottom: 0;
 }
+.portfolio-page__container__gallery__item-no-img {
+    background-color: grey;
+}
+.portfolio-page__container__gallery2 {
+    margin-bottom: 60px;
+}
