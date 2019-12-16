@@ -221,18 +221,8 @@
         display: flex;
         flex-direction: column;
     }
-    .about-page-section__container__text-block_p1 {
-        order: 1;
-    }
-    .about-page-section__container__text-block_p2 {
-        order: 2;
-    }
-    .about-page-section__container__text-block_p3 {
-        order: 4;
-    }
-    .about-page-section__container__text-block_p {
+    .default-text{
         margin-bottom: 10px;
-
     }
     .about__our-team .wrapper {
         width: 700px;
@@ -1355,7 +1345,7 @@
     .about-page-section__container {
         padding-top: 35px;
     }
-    .about-page-section__container__text-block_p {
+    .default-text {
         font-size: 12px;
         line-height: 14px;
     }
@@ -1421,9 +1411,6 @@
     }
     .current-service .wrapper {
         width: 304px;
-    }
-    .current-service-container_text-mb {
-        margin-bottom: 20px;
     }
     .current-service-container__slider__item {
         height: 210px;
@@ -1787,7 +1774,7 @@
         font-size: 12px;
         line-height: 14px;
     }
-    .service-text-section_p_link {
+    .default-link {
         font-size: 12px;
         line-height: 14px;
     }

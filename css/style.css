@@ -164,6 +164,9 @@ body {
 }
 .main-slider__item_btn {
     width: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .main-slider__item_main {
     font-style: normal;
@@ -902,7 +905,7 @@ body {
 .header-bottom_lists_li_link_current {
     color: #0EAF4A;
 }
-.about-page-section__container__text-block_p {
+.default-text {
     font-style: normal;
     font-weight: normal;
     font-size: 26px;
@@ -913,9 +916,8 @@ body {
 }
 .about-page-section__container__text-block_float-img {
     float: right;
-}
-.about-page-section__container__text-block_float-img {
     margin-left: 15px;
+    margin-bottom: 15px;
 }
 .about-advantages {
     padding-top: 120px;
@@ -993,9 +995,6 @@ body {
     color: #5E6366;
     margin-bottom: 25px;
     text-align: justify;
-}
-.current-service-container_text-mb {
-    margin-bottom: 60px;
 }
 .current-service-container_text a {
     font-style: normal;
@@ -1662,7 +1661,7 @@ body {
     margin-bottom: 5px;
     text-align: justify;
 }
-.service-text-section_p_link {
+.default-link {
     font-style: normal;
     font-weight: 500;
     font-size: 26px;
@@ -1670,6 +1669,7 @@ body {
     letter-spacing: 0.03em;
     text-decoration-line: none;
     color: #0EAF4A;
+    cursor: pointer;
 }
 .service-text-section_p_link-tel {
     font-style: normal;
@@ -2131,7 +2131,7 @@ body {
 .specific-project-text {
     padding-top: 120px;
 }
-.current-service-container_text-green {
+.default-green-text {
     font-style: normal;
     font-weight: 500;
     font-size: 26px;
@@ -2232,4 +2232,7 @@ body {
 }
 .portfolio-page__container__gallery2 {
     margin-bottom: 60px;
+}
+.d-none {
+    display: none;
 }

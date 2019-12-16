@@ -1,6 +1,7 @@
-const counters = document.querySelector('.about__numbers-container');
-
 window.onload = function () {
+    const counters = document.querySelector('.about__numbers-container');
+    var oldImg;
+
     $('.main-slider').slick({
         slide: '.main-slider__item',
         arrows: true,
@@ -23,6 +24,7 @@ window.onload = function () {
             }
         ]
     });
+
     $('.serteficates-slider').slick({
         slide: '.serteficates-slider_item',
         arrows: true,
@@ -37,6 +39,7 @@ window.onload = function () {
             }
         ]
     });
+
     $('.comments__slider').slick({
         slide: '.comments__slider__item',
         arrows: true,
@@ -44,80 +47,46 @@ window.onload = function () {
         slidesToShow: 1
     });
 
-    $('.clients__slider__item1').hover(
+    $('.clients__slider__item').hover(
         function () {
-            $('.clients__slider__item1').children('img').attr('src', 'img/sl11.png')
+            oldImg = $(this).children('img').attr('src');
+            let hoverImg = $(this).children(".slider-hover-img");
+            let currentLink = $(hoverImg).data('img-link');
+            $(this).children('img').attr('src', currentLink)
         },
         function () {
-            $('.clients__slider__item1').children('img').attr('src', 'img/sl1.png')
+            $(this).children('img').attr('src', oldImg)
         }
     );
 
-    $('.clients__slider__item2').hover(
-        function () {
-            $('.clients__slider__item2').children('img').attr('src', 'img/sl21.png')
-        },
-        function () {
-            $('.clients__slider__item2').children('img').attr('src', 'img/sl2.png')
-        }
-    );
+    var containersForNumber = $('.about__numbers-container_card_top-number');
+    for (var i = 0; i < containersForNumber.length; i++) {
+        let currentConteiner = containersForNumber[i];
+        let from = $(currentConteiner).children('.number-card-from').data('number')
+        let to = $(currentConteiner).children('.number-card-to').data('number')
 
-    $('.clients__slider__item3').hover(
-        function () {
-            $('.clients__slider__item3').children('img').attr('src', 'img/sl31.png')
-        },
-        function () {
-            $('.clients__slider__item3').children('img').attr('src', 'img/sl3.png')
-        }
-    );
+        $(window).scroll(function () {
+            var countersTop = counters.getBoundingClientRect().top;
 
-    $('.clients__slider__item4').hover(
-        function () {
-            $('.clients__slider__item4').children('img').attr('src', 'img/sl41.png')
-        },
-        function () {
-            $('.clients__slider__item4').children('img').attr('src', 'img/sl4.png')
-        }
-    );
+            if (countersTop < 600) {
+                if ($(currentConteiner).hasClass('comma')) {
+                    $(currentConteiner).spincrement({
+                        duration: 2000,
+                        from: from,
+                        to: to,
+                        decimalPlaces: 2,
+                        decimalPoint: 	','
+                    });
+                } else {
+                    $(currentConteiner).spincrement({
+                        duration: 2000,
+                        from: from,
+                        to: to,
+                    });
+                }
+            }
+        })
+    }
 };
 
-$(window).scroll(function () {
-    let countersTop = counters.getBoundingClientRect().top
-    if ($('.about__numbers-container_card_top-number').text().length == 0) {
-        if (countersTop < 600) {
-            $('.about__numbers-container_card_top-number1').spincrement({
-                duration: 2000,
-                from: 0,
-                to: 11
-            });
-            $('.about__numbers-container_card_top-number2').spincrement({
-                duration: 2000,
-                from: 0,
-                to: 13
-            });
-            $('.about__numbers-container_card_top-number_span').spincrement({
-                duration: 2000,
-                from: 0,
-                to: 500
-            });
-            $('.about__numbers-container_card_top-number3').spincrement({
-                duration: 2000,
-                from: 0,
-                to: 3.75,
-                decimalPlaces: 2,
-                decimalPoint: 	','
-            });
-            $('.about__numbers-container_card_top-number4').spincrement({
-                duration: 2000,
-                from: 0,
-                to: 284
-            });
-            $('.about__numbers-container_card_top-number5').spincrement({
-                duration: 2000,
-                from: 0,
-                to: 38
-            });
-        }
-    }
 
-});

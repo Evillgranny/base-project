@@ -71,9 +71,9 @@
                     <h2 class="main-slider__item_main">
                         Предпроектные работы
                     </h2>
-                    <button class="header-top__right_button main-slider__item_btn">
+                    <a class="header-top__right_button main-slider__item_btn">
                         Подробнее
-                    </button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -85,9 +85,9 @@
                     <h2 class="main-slider__item_main">
                         Предпроектные работы 2
                     </h2>
-                    <button class="header-top__right_button main-slider__item_btn">
+                    <a class="header-top__right_button main-slider__item_btn">
                         Подробнее
-                    </button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -99,9 +99,9 @@
                     <h2 class="main-slider__item_main">
                         Предпроектные работы 3
                     </h2>
-                    <button class="header-top__right_button main-slider__item_btn">
+                    <a class="header-top__right_button main-slider__item_btn">
                         Подробнее
-                    </button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -113,9 +113,9 @@
                     <h2 class="main-slider__item_main">
                         Предпроектные работы 4
                     </h2>
-                    <button class="header-top__right_button main-slider__item_btn">
+                    <a class="header-top__right_button main-slider__item_btn">
                         Подробнее
-                    </button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -312,22 +312,38 @@
         <div class="wrapper">
             <h2 class="main-h2">Наши заказчики</h2>
             <div class="clients__slider">
+
                 <a href="#" class="clients__slider__item clients__slider__item1">
+                    <!--адрес картинки при наведении-->
+                    <span data-img-link="img/sl11.png" class="slider-hover-img"></span>
+
                     <img src="img/sl1.png" alt="" class="clients__slider__item__img">
                     <p class="clients__slider__item_text">ООО “Жилстройкомплект</p>
                 </a>
                 <a href="#" class="clients__slider__item clients__slider__item2">
+                    <!--адрес картинки при наведении-->
+                    <span data-img-link="img/sl21.png" class="slider-hover-img"></span>
+
                     <img src="img/sl2.png" alt="" class="clients__slider__item__img">
                     <p class="clients__slider__item_text">ТРЦ “Охотный ряд”</p>
                 </a>
+
                 <a href="#" class="clients__slider__item clients__slider__item3">
+                    <!--адрес картинки при наведении-->
+                    <span data-img-link="img/sl31.png" class="slider-hover-img"></span>
+
                     <img src="img/sl3.png" alt="" class="clients__slider__item__img">
                     <p class="clients__slider__item_text">Главное управление <br> Юстиции <br> Мингориспоклома</p>
                 </a>
+
                 <a href="#" class="clients__slider__item clients__slider__item4">
+                    <!--адрес картинки при наведении-->
+                    <span data-img-link="img/sl41.png" class="slider-hover-img"></span>
+
                     <img src="img/sl4.png" alt="" class="clients__slider__item__img">
                     <p class="clients__slider__item_text">ООО «Русский лес»</p>
                 </a>
+
             </div>
         </div>
     </section>
@@ -335,9 +351,15 @@
     <section class="about">
         <div class="wrapper">
             <h2 class="main-h2">О компании</h2>
+
             <div class="about__numbers-container">
                 <div class="about__numbers-container_card">
-                    <div class="about__numbers-container_card_top-number about__numbers-container_card_top-number1"></div>
+                    <div class="about__numbers-container_card_top-number">
+                        <!--С какой цифры начинает считать-->
+                        <span data-number="0" class="number-card-from d-none"></span>
+                        <!--По какую цифру считает-->
+                        <span data-number="11" class="number-card-to d-none"></span>
+                    </div>
                     <p class="about__numbers-container_card_text">
                         лет на рынке <br>
                         проектирования
@@ -345,9 +367,11 @@
                 </div>
 
                 <div class="about__numbers-container_card">
-                    <div class="about__numbers-container_card_top-number_container about__numbers-container_card_top-number_container-flex">
-                        <div class="about__numbers-container_card_top-number about__numbers-container_card_top-number2"></div>
-                        <p class="about__numbers-container_card_top-number_span"></p>
+                    <div class="about__numbers-container_card_top-number">
+                        <!--С какой цифры начинает считать-->
+                        <span data-number="0" class="number-card-from d-none"></span>
+                        <!--По какую цифру считает-->
+                        <span data-number="13500" class="number-card-to d-none"></span>
                     </div>
                     <p class="about__numbers-container_card_text">
                         дней строительства <br>
@@ -357,7 +381,12 @@
                 </div>
 
                 <div class="about__numbers-container_card">
-                    <div class="about__numbers-container_card_top-number about__numbers-container_card_top-number3"></div>
+                    <div class="about__numbers-container_card_top-number comma">
+                        <!--С какой цифры начинает считать-->
+                        <span data-number="0" class="number-card-from d-none"></span>
+                        <!--По какую цифру считает-->
+                        <span data-number="3.75" class="number-card-to d-none"></span>
+                    </div>
                     <p class="about__numbers-container_card_text">
                         млн долларов <br>
                         дополнительных <br>
@@ -366,7 +395,12 @@
                 </div>
 
                 <div class="about__numbers-container_card about__numbers-container_card4">
-                    <div class="about__numbers-container_card_top-number about__numbers-container_card_top-number4"></div>
+                    <div class="about__numbers-container_card_top-number">
+                        <!--С какой цифры начинает считать-->
+                        <span data-number="0" class="number-card-from d-none"></span>
+                        <!--По какую цифру считает-->
+                        <span data-number="2000" class="number-card-to d-none"></span>
+                    </div>
                     <p class="about__numbers-container_card_text">
                         проекта подбора <br>
                         оборудования
@@ -374,7 +408,13 @@
                 </div>
 
                 <div class="about__numbers-container_card about__numbers-container_card5">
-                    <div class="about__numbers-container_card_top-number about__numbers-container_card_top-number5"></div>
+                    <div class="about__numbers-container_card_top-number">
+                        <!--С какой цифры начинает считать-->
+                        <span data-number="0" class="number-card-from d-none"></span>
+                        <!--По какую цифру считает-->
+                        <span data-number="38" class="number-card-to d-none"></span>
+                    </div>
+
                     <p class="about__numbers-container_card_text">
                         сотрудников
                     </p>
@@ -410,7 +450,12 @@
                 </div>
 
                 <div class="serteficates-slider_item">
-                    <img src="img/s22.png" alt="" class="serteficates-slider_item_img serteficates-slider_item_img_in2">
+                    <img src="img/s22.png" alt="" class="serteficates-slider_item_img serteficates-slider_item_img_in">
+                    <!--Большие картинки при клике. Ссылки на них добавляйте в data-link-->
+                    <span data-link="img/s2.png" class="d-none for-fancy-box"></span>
+                    <span data-link="img/s2-1.png" class="d-none for-fancy-box"></span>
+                    <span data-link="img/s2-2.png" class="d-none for-fancy-box"></span>
+                    <span data-link="img/s2-3.png" class="d-none for-fancy-box"></span>
                     <p class="serteficates-slider_item_text">
                         Лицензия на право осуществления <br>
                         деятельности по обеспечению <br>
@@ -419,16 +464,25 @@
                 </div>
 
                 <div class="serteficates-slider_item">
-                    <img src="img/sd01.png" alt="" class="serteficates-slider_item_img serteficates-slider_item_img_in0">
+                    <img src="img/sd01.png" alt="" class="serteficates-slider_item_img serteficates-slider_item_img_in">
+                    <!--Большие картинки при клике. Ссылки на них добавляйте в data-link-->
+                        <span data-link="img/sd01.png" class="d-none for-fancy-box"></span>
+                        <span data-link="img/sd02.png" class="d-none for-fancy-box"></span>
+                        <span data-link="img/sd03.png" class="d-none for-fancy-box"></span>
                     <p class="serteficates-slider_item_text">
-                        Лицензия на право осуществления <br>
-                        деятельности по обеспечению <br>
-                        пожарной безопасности
+                        Лицензия на право <br>
+                        осуществления охранной <br>
+                        деятельности
                     </p>
                 </div>
 
                 <div class="serteficates-slider_item">
-                    <img src="img/s55.png" alt="" class="serteficates-slider_item_img_in1 serteficates-slider_item_img">
+                    <img src="img/s55.png" alt="" class="serteficates-slider_item_img_in serteficates-slider_item_img">
+                    <!--Большие картинки при клике. Ссылки на них добавляйте в data-link-->
+                    <span data-link="img/s5.png" class="d-none for-fancy-box"></span>
+                    <span data-link="img/s5-1.png" class="d-none for-fancy-box"></span>
+                    <span data-link="img/s5-2.png" class="d-none for-fancy-box"></span>
+
                     <p class="serteficates-slider_item_text">
                         Аттестат соответствия на <br>
                         разработку разделов <br>
@@ -445,7 +499,11 @@
                 </div>
 
                 <div class="serteficates-slider_item">
-                    <img src="img/s77.png" alt="" class="serteficates-slider_item_img_in3 serteficates-slider_item_img">
+                    <img src="img/s77.png" alt="" class="serteficates-slider_item_img_in serteficates-slider_item_img">
+                    <!--Большие картинки при клике. Ссылки на них добавляйте в data-link-->
+                    <span data-link="img/s7.png" class="d-none for-fancy-box"></span>
+                    <span data-link="img/s7-1.png" class="d-none for-fancy-box"></span>
+
                     <p class="serteficates-slider_item_text">
                         Выписка из реестра
                     </p>
@@ -459,7 +517,13 @@
                 </div>
 
                 <div class="serteficates-slider_item">
-                    <img src="img/s99.png" alt="" class="serteficates-slider_item_img_in4 serteficates-slider_item_img">
+                    <img src="img/s99.png" alt="" class="serteficates-slider_item_img_in serteficates-slider_item_img">
+                    <!--Большие картинки при клике. Ссылки на них добавляйте в data-link-->
+                    <span data-link="img/s9.png" class="d-none for-fancy-box"></span>
+                    <span data-link="img/s9-1.png" class="d-none for-fancy-box"></span>
+                    <span data-link="img/s9-2.png" class="d-none for-fancy-box"></span>
+                    <span data-link="img/s9-3.png" class="d-none for-fancy-box"></span>
+
                     <p class="serteficates-slider_item_text">
                         Приложение к государственной <br>
                         лицензии
