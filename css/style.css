@@ -1005,19 +1005,8 @@ body {
     color: #0EAF4A;;
     cursor: pointer;
 }
-.current-service-container__slider__item {
-    height: 680px;
-    overflow: hidden;
-    display: flex !important;
-    justify-content: center;
-    align-items: center;
-}
 .current-service-container__slider__item_img {
-    object-fit: fill;
-    flex-grow: 0;
     width: 100%;
-    height: 100%;
-    box-sizing: border-box;
 }
 .arrow-prev {
     width: 63px;

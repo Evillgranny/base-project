@@ -266,12 +266,6 @@
     }
     /*О нас*/
     /*конкретная услуга*/
-    .current-service-container__slider {
-        height: 426px;
-    }
-    .current-service-container__slider__item {
-        height: 426px;
-    }
     .current-service-container__slider .slick-dots {
         width: 374px;
         padding-left: 60px;
@@ -284,9 +278,6 @@
     }
     .sub-main {
         font-size: 20px;
-    }
-    .current-service-container__slider__item_img {
-        height: 210px;
     }
     .current-service-container_green-cards {
         grid-template-columns: 100%;
@@ -351,9 +342,6 @@
     }
     .questions__container__form_btn {
         width: 100%;
-    }
-    .current-service-container__slider__item_img {
-        height: 426px;
     }
     /*конкретная услуга*/
     /*Сертефикаты*/
@@ -1412,11 +1400,7 @@
     .current-service .wrapper {
         width: 304px;
     }
-    .current-service-container__slider__item {
-        height: 210px;
-    }
     .current-service-container__slider {
-        height: 210px;
         margin-bottom: 32px;
     }
     .current-service-container__slider .slick-dots {

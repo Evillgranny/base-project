@@ -5,7 +5,8 @@ window.onload = function () {
         speed: 500,
         prevArrow:  `<button type="button" class="arrow-prev"></button>`,
         nextArrow:  `<button type="button" class="arrow-next"></button>`,
-        infinite: false
+        infinite: false,
+        adaptiveHeight: true
     });
 
     $('.current-service-container_slider').slick({
